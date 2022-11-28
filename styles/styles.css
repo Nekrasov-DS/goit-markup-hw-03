@@ -306,10 +306,12 @@ img {
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
     flex-basis: calc(100% / 3 - var(--card-set-gap));
-    border: 1px solid var(--border-color-secondary);
 }
 .portfolio-list .card-footer {
     padding: 20px 24px;
+    border-right: 1px solid var(--border-color-secondary);
+    border-bottom: 1px solid var(--border-color-secondary);
+    border-left: 1px solid var(--border-color-secondary);
 }
 .portfolio .portfolio-title {
     color: var(--text-color-secondary);
