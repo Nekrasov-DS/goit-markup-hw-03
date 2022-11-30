@@ -89,8 +89,10 @@ img {
     margin-left: 93px;
 }
 .site-nav .item {
-    color:var(--text-color-secondary);
     margin-left: 50px;
+}
+.site-nav .item a {
+    color: var(--text-color-secondary);
 }
 .site-nav .item:first-child {
     margin-left: 0;
